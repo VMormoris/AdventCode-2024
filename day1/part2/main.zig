@@ -1,7 +1,7 @@
 const std = @import("std");
 
 pub fn main() !void {
-    const inputs = try readFileLineByLine("part1/input.txt");
+    const inputs = try readFileLineByLine("part2/input.txt");
 
     defer inputs[0].deinit();
     defer inputs[1].deinit();
